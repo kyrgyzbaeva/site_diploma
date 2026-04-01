@@ -52,6 +52,7 @@ Infrastructure
 
 Project Structure
 
+```
 project-root/
 ├── backend/
 │   ├── src/
@@ -66,4 +67,6 @@ project-root/
 │   └── App.tsx
 │
 ├── README.md
+└── docker-compose.yml
+```ME.md
 └── docker-compose.yml
