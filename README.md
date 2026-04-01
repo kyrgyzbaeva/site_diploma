@@ -70,3 +70,29 @@ project-root/
 └── docker-compose.yml
 ```ME.md
 └── docker-compose.yml
+
+
+ Quick Start
+
+ 1. Clone repository
+
+```bash
+git clone <your-repo-url>
+cd your-project
+```
+
+ 2. Backend setup
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+ 3. Frontend setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
