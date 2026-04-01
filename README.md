@@ -96,3 +96,37 @@ cd frontend
 npm install
 npm run dev
 ```
+
+ Deployment
+
+ Using Docker
+
+```bash
+docker compose up -d --build
+```
+
+The application will be available at:
+
+- Frontend: http://localhost:8080  
+- Backend: http://localhost:3000  
+
+---
+
+ Manual Deployment
+
+ Backend
+
+```bash
+cd backend
+npm install
+npm run build
+npm start
+```
+
+ Frontend
+
+```bash
+cd frontend
+npm install
+npm run build
+```
