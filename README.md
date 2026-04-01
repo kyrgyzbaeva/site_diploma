@@ -29,17 +29,10 @@ Features
 Tech Stack
 
 Frontend
-- React
-- TypeScript
-- Vite
-- (UI Library: Ant Design / Material UI — replace if needed)
-- Axios
+- JavaScript
 
  Backend
-- Node.js
-- Express.js
-- TypeScript
-- REST API
+- Php
 
 Database
 - phpMyAdmin/XAMPP
@@ -81,15 +74,7 @@ git clone <your-repo-url>
 cd your-project
 ```
 
- 2. Backend setup
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
- 3. Frontend setup
+ 2. Frontend setup
 
 ```bash
 cd frontend
@@ -114,14 +99,6 @@ The application will be available at:
 
  Manual Deployment
 
- Backend
-
-```bash
-cd backend
-npm install
-npm run build
-npm start
-```
 
  Frontend
 
