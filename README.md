@@ -92,7 +92,7 @@ docker compose up -d --build
 
 The application will be available at:
 
-- Frontend: http://[localhost:8000]
+- Frontend: [http://localhost:8000](http://localhost:8000)
 
 ---
 
