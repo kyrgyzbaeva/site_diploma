@@ -51,3 +51,19 @@ Infrastructure
 ---
 
 Project Structure
+
+project-root/
+├── backend/
+│   ├── src/
+│   ├── routes/
+│   ├── controllers/
+│   └── server.ts
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.tsx
+│
+├── README.md
+└── docker-compose.yml
