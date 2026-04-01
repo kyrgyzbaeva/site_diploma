@@ -1,90 +1,53 @@
-Development of an interactive web dashboard using React for visualizing realtime patient vital signs in a telemedicine platform
+Telemedicine Dashboard
 
-Overview
+A modern web-based dashboard for telemedicine services, enabling healthcare providers to manage patients, appointments, and medical data efficiently.
 
-This diploma project is a web-based medical platform designed to help users access healthcare-related information and services in a simple and efficient way. The system provides a user-friendly interface for viewing medical data, interacting with content, and navigating through different sections of the application.
+---
+
+ Overview
+
+Telemedicine Dashboard is designed to streamline remote healthcare services by providing tools for:
+
+- Patient management
+- Appointment scheduling
+- Video consultations
+- Medical records tracking
+- Data visualization and analytics
+
+---
 
 Features
-	•	User-friendly medical interface
-	•	Viewing medical information and content
-	•	Easy navigation between pages
-	•	Responsive design for different devices
 
-Technologies Used
-	•	HTML
-	•	CSS
-	•	JavaScript
+- Patient Management – Add, edit, and monitor patient profiles  
+- Appointments – Schedule and manage consultations  
+- Video Calls – Integrated telemedicine sessions  
+- Dashboard Analytics – Visual insights into system usage  
+- Authentication & Security – Secure login and protected routes  
 
-How to Run
-	1.	Download the project files
-	2.	Open index.html in your browser
+---
 
+Tech Stack
 
-SRS.md (Software Requirements Specification)
+Frontend
+- React
+- TypeScript
+- Vite
+- (UI Library: Ant Design / Material UI — replace if needed)
+- Axios
 
-Introduction
+ Backend
+- Node.js
+- Express.js
+- TypeScript
+- REST API
 
-This project is designed to create a simple medical web platform that allows users to access and interact with healthcare-related information.
+Database
+- phpMyAdmin/XAMPP
 
-Functional Requirements
-	•	The system should display medical information pages
-	•	The user should be able to navigate between sections
-	•	The system should respond to user interactions
+Infrastructure
+- Docker 
+- REST API architecture
 
-Non-Functional Requirements
-	•	The system should be fast and reliable
-	•	The interface should be simple and user-friendly
-	•	The system should work on different devices (mobile, desktop)
+---
 
-
-SYSTEM_DESIGN.md
-
-System Overview
-
-The system is a front-end medical web application.
-
-Architecture
-	•	Client-side only (browser-based)
-	•	No server-side processing
-
-Components
-	•	HTML structure for medical pages
-	•	CSS styling for UI/UX
-	•	JavaScript for interactivity
-
-
-TEST_CASE_REPORT.md
-
-Testing Summary
-
-Test 1: Open Website
-
-Expected: Website loads successfully
-Result: Passed
-
-Test 2: Navigation
-
-Expected: Pages switch correctly
-Result: Passed
-
-Test 3: UI Interaction
-
-Expected: Buttons and elements respond correctly
-Result: Passed
-
-
-PROJECT_STRUCTURE
-
-project/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── SRS.md
-├── SYSTEM_DESIGN.md
-└── TEST_CASE_REPORT.md
-
-
-Conclusion
-
-The medical web platform was successfully developed and tested. All main features are functioning correctly, and the system meets the requirements of the diploma project.
+Project Structure
