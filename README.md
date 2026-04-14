@@ -36,6 +36,7 @@ Frontend
 
 Database
 - phpMyAdmin/XAMPP
+- mySQl
 
 Infrastructure
 - Docker 
