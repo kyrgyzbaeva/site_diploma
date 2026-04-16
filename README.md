@@ -64,3 +64,15 @@ This system provides:
 ---
 
 ##  Project Structure
+site_diploma/
+│
+├── frontend/        # React application
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/         # FastAPI application
+│   ├── main.py
+│   └── models.py
+│
+└── docker-compose.yml
