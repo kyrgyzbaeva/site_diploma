@@ -64,15 +64,82 @@ This system provides:
 ---
 
 ##  Project Structure
+```
 site_diploma/
 │
-├── frontend/        # React application
+├── frontend/        # REACT
 │   ├── src/
 │   ├── package.json
 │   └── vite.config.js
 │
-├── backend/         # FastAPI application
+├── backend/         # FastAPI 
 │   ├── main.py
 │   └── models.py
 │
 └── docker-compose.yml
+```
+---
+
+##  Installation & Run (Local)
+
+### 1. Clone repository
+```bash
+git clone https://github.com/kyrgyzbaeva/site_diploma.git
+cd site_diploma
+```
+
+
+### 2. Backend setup
+```
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### 3. Backend runs on
+```
+http://localhost:8000
+```
+### 4. Frontend setup
+```
+cd frontend
+npm install
+npm run dev
+```
+### 5. Frontend runs on
+```
+http://localhost:5173
+```
+## Deployment frontend
+```
+([https://site-diploma-pi.vercel.app/])
+```
+## API Integration
+```
+fetch("http://0.0.0.0:8001/docs")
+```
+##  Features
+
+- User authentication (Login)
+- Dashboard interface
+- Patient data management
+- API communication between frontend and backend
+- Modular and scalable project structure
+
+---
+
+##  Future Improvements
+
+- Database integration (PostgreSQL)
+- Role-based access control (Admin / Doctor)
+- Patient history tracking
+- UI/UX improvements
+- Deployment optimization
+
+---
+
+##  Conclusion
+
+This project demonstrates the development of a full-stack web application in the medical domain, combining modern frontend technologies with a Python backend.
+
+It addresses real-world challenges by digitizing patient data management and improving efficiency in healthcare processes.
