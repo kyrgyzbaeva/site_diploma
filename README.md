@@ -80,6 +80,25 @@ site_diploma/
 ```
 ---
 
+## 🔗 API Endpoints
+
+The backend provides REST API endpoints for authentication, patient management, and comments.
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/auth/login` | User authentication |
+| GET | `/api/patients` | Get all patients |
+| GET | `/api/patients/{pid}` | Get patient by ID |
+| POST | `/api/patients` | Create a new patient |
+| POST | `/api/comments` | Add a doctor comment |
+
+### Swagger Documentation
+
+When the backend is running locally, API documentation is available at:
+
+```text
+http://localhost:8000/docs
+
 ##  Installation & Run (Local)
 
 ### 1. Clone repository
