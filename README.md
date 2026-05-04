@@ -127,7 +127,7 @@ npm run dev
 ```
 ### 5. Frontend runs on
 ```
-(http://localhost:3000)
+http://localhost:3000
 ```
 ## Deployment frontend
 ```
@@ -135,7 +135,7 @@ https://site-diploma-pi.vercel.app/
 ```
 ## API Integration
 ```
-(http://localhost:8000/docs)
+http://localhost:8000/docs
 ```
 ##  Features
 
