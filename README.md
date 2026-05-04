@@ -116,7 +116,7 @@ https://site-diploma-pi.vercel.app/
 ```
 ## API Integration
 ```
-fetch("http://0.0.0.0:8001/docs")
+(http://localhost:8000/docs)
 ```
 ##  Features
 
